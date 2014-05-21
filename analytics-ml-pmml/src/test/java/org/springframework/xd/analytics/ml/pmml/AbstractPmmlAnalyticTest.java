@@ -17,7 +17,7 @@ package org.springframework.xd.analytics.ml.pmml;
 
 import java.util.List;
 
-import org.springframework.xd.analytics.ml.Analytic;
+import org.springframework.data.science.analytic.Analytic;
 import org.springframework.xd.tuple.Tuple;
 
 /**

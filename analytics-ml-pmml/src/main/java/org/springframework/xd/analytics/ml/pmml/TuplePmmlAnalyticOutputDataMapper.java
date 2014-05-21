@@ -16,12 +16,17 @@
 
 package org.springframework.xd.analytics.ml.pmml;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 import org.dmg.pmml.FieldName;
+import org.springframework.data.science.analytic.AbstractFieldMappingAwareDataMapper;
+import org.springframework.data.science.analytic.OutputMapper;
+import org.springframework.data.science.pmml.analytic.PmmlAnalytic;
 import org.springframework.util.Assert;
-import org.springframework.xd.analytics.ml.AbstractFieldMappingAwareDataMapper;
-import org.springframework.xd.analytics.ml.OutputMapper;
 import org.springframework.xd.tuple.Tuple;
 import org.springframework.xd.tuple.TupleBuilder;
 

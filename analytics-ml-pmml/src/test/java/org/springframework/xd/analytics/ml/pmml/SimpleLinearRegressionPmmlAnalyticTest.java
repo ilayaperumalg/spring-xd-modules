@@ -16,13 +16,13 @@
 
 package org.springframework.xd.analytics.ml.pmml;
 
-import static org.junit.Assert.*;
-import static org.springframework.xd.tuple.TupleBuilder.*;
+import static org.junit.Assert.assertEquals;
+import static org.springframework.xd.tuple.TupleBuilder.tuple;
 
 import java.util.Arrays;
 
 import org.junit.Test;
-import org.springframework.xd.analytics.ml.Analytic;
+import org.springframework.data.science.analytic.Analytic;
 import org.springframework.xd.tuple.Tuple;
 
 /**

@@ -24,6 +24,7 @@ repositories {
   maven { url "http://repo.spring.io/libs-snapshot" }
   maven { url "http://repo.spring.io/plugins-release" }
   mavenCentral()
+  mavenLocal()
 }
 
 apply plugin: "java"
@@ -46,8 +47,8 @@ dependencies {
     compile "org.slf4j:jcl-over-slf4j:$slf4jVersion"
     compile "org.springframework:spring-core:$springVersion"
     compile "org.springframework.xd:spring-xd-tuple:$springXDVersion"
-    compile "org.springframework.xd:spring-xd-analytics-ml:$springXDVersion"
     compile "org.springframework.xd:spring-xd-module-spi:$springXDVersion"
+    compile "org.springframework.data:spring-data-science:$springDataScienceVersion"
 
     runtime "log4j:log4j:$log4jVersion"
 	runtime	"org.slf4j:jcl-over-slf4j:$slf4jVersion"

@@ -21,8 +21,13 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import org.dmg.pmml.*;
+import org.dmg.pmml.AssociationModel;
+import org.dmg.pmml.FieldName;
+import org.dmg.pmml.Item;
+import org.dmg.pmml.ItemRef;
+import org.dmg.pmml.Model;
 import org.jpmml.evaluator.Association;
+import org.springframework.data.science.pmml.analytic.PmmlAnalytic;
 import org.springframework.util.Assert;
 import org.springframework.xd.tuple.Tuple;
 

@@ -15,15 +15,17 @@
  */
 package org.springframework.xd.analytics.ml.pmml;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.junit.Assert.*;
+import static org.hamcrest.CoreMatchers.instanceOf;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
 
 import java.util.Arrays;
 
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
-import org.springframework.xd.analytics.ml.Analytic;
+import org.springframework.data.science.analytic.Analytic;
+import org.springframework.data.science.pmml.analytic.PmmlAnalytic;
 import org.springframework.xd.tuple.Tuple;
 
 /**

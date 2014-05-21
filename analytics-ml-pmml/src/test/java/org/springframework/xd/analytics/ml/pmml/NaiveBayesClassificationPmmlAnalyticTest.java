@@ -16,15 +16,15 @@
 
 package org.springframework.xd.analytics.ml.pmml;
 
-import static org.hamcrest.CoreMatchers.*;
-import static org.junit.Assert.*;
-import static org.springframework.xd.analytics.ml.pmml.TupleTestUtils.*;
+import static org.hamcrest.CoreMatchers.is;
+import static org.junit.Assert.assertThat;
+import static org.springframework.xd.analytics.ml.pmml.TupleTestUtils.objectToTuple;
 
 import java.util.Arrays;
 
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.xd.analytics.ml.Analytic;
+import org.springframework.data.science.analytic.Analytic;
 import org.springframework.xd.tuple.Tuple;
 
 /**

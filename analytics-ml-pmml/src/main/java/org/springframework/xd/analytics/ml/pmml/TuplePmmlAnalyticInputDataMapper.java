@@ -22,9 +22,10 @@ import java.util.Map;
 
 import org.dmg.pmml.FieldName;
 import org.jpmml.evaluator.EvaluatorUtil;
+import org.springframework.data.science.analytic.AbstractFieldMappingAwareDataMapper;
+import org.springframework.data.science.analytic.InputMapper;
+import org.springframework.data.science.pmml.analytic.PmmlAnalytic;
 import org.springframework.util.Assert;
-import org.springframework.xd.analytics.ml.AbstractFieldMappingAwareDataMapper;
-import org.springframework.xd.analytics.ml.InputMapper;
 import org.springframework.xd.tuple.Tuple;
 
 /**

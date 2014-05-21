@@ -21,9 +21,11 @@ import java.util.List;
 import java.util.Map;
 
 import org.dmg.pmml.FieldName;
+import org.springframework.data.science.analytic.InputMapper;
+import org.springframework.data.science.analytic.OutputMapper;
+import org.springframework.data.science.pmml.PmmlLoader;
+import org.springframework.data.science.pmml.analytic.PmmlAnalytic;
 import org.springframework.util.StringUtils;
-import org.springframework.xd.analytics.ml.InputMapper;
-import org.springframework.xd.analytics.ml.OutputMapper;
 import org.springframework.xd.tuple.Tuple;
 
 import com.google.common.base.Splitter;

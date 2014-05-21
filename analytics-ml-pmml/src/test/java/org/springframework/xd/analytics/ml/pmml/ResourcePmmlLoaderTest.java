@@ -17,13 +17,15 @@ package org.springframework.xd.analytics.ml.pmml;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
-import static org.hamcrest.Matchers.*;
-import static org.junit.Assert.*;
+import static org.hamcrest.Matchers.hasSize;
+import static org.junit.Assert.assertThat;
 
 import org.dmg.pmml.PMML;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+import org.springframework.data.science.pmml.PmmlLoader;
+import org.springframework.data.science.pmml.ResourcePmmlLoader;
 
 /**
  * @author Thomas Darimont
